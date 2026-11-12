@@ -2,7 +2,7 @@
 
 [English version](README.en.md)
 
-Мой учебный проект по анализу вакансий: загружаю вакансии аналитиков и junior-backend разработчиков, храню их в PostgreSQL вместе с историей изменений и отвечаю SQL-запросами на вопросы про рынок: какие навыки просят, как меняется зарплата, кто нанимает стабильно.
+Проект делал для себя, чтобы посмотреть вакансии и понять какие навыки востребованы и надо уделить им больше времени
 
 <p align="center">
   <a href="https://squidi9qt.github.io/job-analysis/?lang=ru"><img src="https://img.shields.io/badge/%E2%96%B6%20%D0%9E%D1%82%D0%BA%D1%80%D1%8B%D1%82%D1%8C%20%D0%B4%D0%B5%D0%BC%D0%BE-2a78d6?style=for-the-badge" alt="Открыть демо"></a>
@@ -61,7 +61,7 @@ API hh.ru без токена приложения отвечает `403`, по�
 
 ## Стек
 
-Python 3.14, PostgreSQL 16, psycopg 3, requests, pandas, matplotlib, pytest, FastAPI. Демо-сайт написан на чистых HTML, CSS и JS без библиотек.
+Python 3.14, PostgreSQL 16, psycopg 3, requests, pandas, matplotlib, pytest, FastAPI. Демо-сайт написан на HTML,CSS,JS без библиотек.
 
 ## Структура
 
@@ -121,3 +121,4 @@ curl localhost:8000/api/summary
 - Получить токен hh.ru и прогнать загрузку на реальных данных.
 - Проверить запуск через Docker.
 - Ускорить q2 (медиана, 0,6 с на 300 тыс.) через материализованное представление.
+- Claude помогал с составление README и помогал в сложные моменты с кодом
