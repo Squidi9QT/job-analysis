@@ -2,7 +2,7 @@
 
 [Русская версия](README.md)
 
-My study project on job market analysis. I load job postings for analysts and junior backend developers, store them in PostgreSQL together with their change history, and answer questions about the market with SQL: which skills are in demand, how salaries change, who keeps hiring.
+I built this project for myself—to look at job openings and figure out which skills are in demand, so I could dedicate more time to them.
 
 <p align="center">
   <a href="https://squidi9qt.github.io/job-analysis/?lang=en"><img src="https://img.shields.io/badge/%E2%96%B6%20Open%20live%20demo-2a78d6?style=for-the-badge" alt="Open the live demo"></a>
@@ -121,3 +121,4 @@ curl localhost:8000/api/summary
 - Get an hh.ru token and run the load on real data.
 - Check the Docker setup.
 - Speed up q2 (median, 0.6 s on 300k) with a materialized view.
+- Claude helps with the README file and with the code during difficult moments
